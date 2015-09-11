@@ -1,0 +1,396 @@
+/* generated with grunt-sass-globbing */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800,300);
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* ul {
+  margin: 0;
+  padding: 0;
+}
+
+* li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+input {
+  outline-color: transparent;
+  box-shadow: 0px 0px 0px #888888;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.row-center-align {
+  float: none;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin: 0 0 30px;
+}
+
+h1 + p {
+  margin-bottom: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+p.font-sm {
+  font-size: 18px;
+}
+
+.headline-text h1 {
+  margin-bottom: 10px;
+}
+.headline-text p {
+  margin-bottom: 70px;
+  color: #777777;
+}
+
+.weightThin {
+  font-weight: 300;
+}
+
+.weightRegular {
+  font-weight: 400;
+}
+
+.weightSemibold {
+  font-weight: 600;
+}
+
+.weightBold {
+  font-weight: 700;
+}
+
+.weightxBold {
+  font-weight: 800;
+}
+
+.section_bg {
+  background-color: #f9f9f9;
+}
+
+section {
+  padding: 60px 0 30px;
+}
+
+.dl-horizontal dd {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.dl-horizontal dd p {
+  margin-bottom: 10px;
+}
+
+.dl-horizontal dt {
+  width: 40px;
+  text-align: left;
+  float: left;
+  font-size: 38px;
+  color: #39d52d;
+}
+
+.reponsive-pull-right {
+  float: right !important;
+}
+@media only screen and (max-width: 480px) {
+  .reponsive-pull-right {
+    float: none !important;
+  }
+}
+
+.bg-green {
+  background-color: #39d52d;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 480px) {
+  .top {
+    width: 50%;
+  }
+}
+
+.center-div-wrapper {
+  display: table;
+  height: 80vh;
+}
+.center-div-wrapper .center-div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 0;
+}
+.hero h1, .hero h2 {
+  text-transform: uppercase;
+  margin: 0 !important;
+}
+.hero h1 {
+  color: #39d52d;
+  font-size: 60px;
+  font-weight: 900;
+}
+@media only screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+}
+.hero h2 {
+  color: #ffffff;
+  font-size: 45px;
+}
+@media only screen and (max-width: 480px) {
+  .hero h2 {
+    font-size: 20px;
+  }
+}
+
+.navbar-brand {
+  padding: 12px 15px;
+}
+
+.navbar {
+  min-height: 60px;
+}
+
+.rel {
+  position: relative;
+}
+
+.fxd {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+}
+
+.marge_section {
+  margin-top: 60px;
+}
+
+.navbar-inverse .navbar-nav.nav {
+  width: 100%;
+}
+.navbar-inverse .navbar-nav > li.selected {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #39d52d;
+}
+@media only screen and (max-width: 480px) {
+  .navbar-inverse .navbar-nav > li.pull-right {
+    float: none !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-nav > li.pull-right {
+    float: none !important;
+  }
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 0;
+}
+
+.full-logo {
+  width: 122px;
+}
+
+.pricing .col-md-4 {
+  padding: 0;
+}
+.pricing tbody {
+  background: #f7f7f7;
+  border: 0;
+}
+.pricing tbody tr td {
+  vertical-align: middle;
+}
+.pricing .table > thead > tr > th {
+  border: 0;
+}
+
+/*
+ * -- PRICING TABLE WRAPPER --
+ * This element wraps up all the pricing table elements
+ */
+.pricing-tables,
+.information {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.pricing-tables {
+  margin-bottom: 3.125em;
+  text-align: center;
+}
+
+/*
+ * -- PRICING TABLE  --
+ * Every pricing table has the .pricing-table class
+ */
+.pricing-table {
+  padding: 0 0 3em;
+}
+
+/*
+ * -- PRICING TABLE HEADER COLORS --
+ * Choose a different color based on the type of pricing table.
+ */
+.pricing-table-free .pricing-table-header {
+  background: #519251;
+  text-align: center;
+}
+
+.pricing-table-biz .pricing-table-header {
+  background: #2c4985;
+  text-align: center;
+}
+
+/*
+ * -- PRICING TABLE HEADER --
+ * By default, a header is black/white, and has some styles for its <h2> name.
+ */
+.pricing-table-header {
+  background: #111;
+  color: #fff;
+}
+
+.pricing-table-header h2 {
+  margin: 0;
+  padding-top: 2em;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+/*
+ * -- PRICING TABLE PRICE --
+ * Styles for the price and the corresponding <span>per month</span>
+ */
+.pricing-table-price {
+  font-size: 6em;
+  margin: 0.2em 0 0;
+  font-weight: 100;
+}
+
+.pricing-table-price span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.2em;
+  padding-bottom: 2em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  *color: #fff;
+}
+
+/*
+ * -- PRICING TABLE LIST --
+ * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
+ */
+.pricing-table-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*
+ * -- PRICING TABLE LIST ELEMENTS --
+ * Styles for the individual list elements within each pricing table
+ */
+.pricing-table-list > div {
+  padding: 20px 40px;
+}
+.pricing-table-list > div span {
+  font-size: 20px;
+  color: #39d52d;
+}
+.pricing-table-list > div span.red {
+  color: red;
+}
+
+/*
+ * -- PRICING TABLE BUTTON --
+ * Styles for the "Choose" button at the bottom of a pricing table.
+ * This inherits from Pure Button.
+ */
+.button-choose {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  border-radius: 2em;
+  font-weight: bold;
+  position: relative;
+  bottom: -1.5em;
+}
+
+.video-section .pattern-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px 0 32px;
+  min-height: 100vh;
+  /* Incase of overlay problems just increase the min-height*/
+}
+
+.video-section .buttonBar {
+  display: none;
+}
+
+.player {
+  font-size: 1px;
+}
+
+.features {
+  padding-top: 0;
+}
+.features .feature img {
+  margin-bottom: 20px;
+}
+.features .feature p {
+  padding: 0 20px;
+}
+.features .feature p.headline {
+  text-transform: uppercase;
+  font-size: 18px;
+}
