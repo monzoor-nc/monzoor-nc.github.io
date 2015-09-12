@@ -32,7 +32,10 @@ $(document).ready(function () {
     $(".player").mb_YTPlayer().on("YTPUnstarted", function () {
         console.log("ready");
     });
-
+    $('.test').change(function () {
+        $('.card').toggleClass('applyflip');
+        console.log("changed");
+    }.bind(this));
 
 });
 
