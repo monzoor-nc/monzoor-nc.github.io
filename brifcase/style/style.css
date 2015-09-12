@@ -396,17 +396,14 @@ section {
   width: 90px;
   background-color: #2d3e50;
   border-radius: 50em;
-  -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-transform 0.5s;
+  transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
 }
 
 .pricing-switcher input[type="radio"]:checked + label + .switch,
 .pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
   -webkit-transform: translateX(90px);
-  -moz-transform: translateX(90px);
   -ms-transform: translateX(90px);
-  -o-transform: translateX(90px);
   transform: translateX(90px);
 }
 
@@ -559,23 +556,6 @@ section {
     visibility: visible;
   }
 }
-@-moz-keyframes stayvisible {
-  from {
-    visibility: visible;
-  }
-  to {
-    visibility: visible;
-  }
-}
-@-o-keyframes stayvisible {
-  from {
-    visibility: visible;
-  }
-  to {
-    visibility: visible;
-  }
-}
-@-ms-keyframes donothing {}
 .video-section .pattern-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 60px 0 32px;
